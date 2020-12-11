@@ -1,6 +1,6 @@
 import scala.io.Source
 
-object lvl9 extends App {
+object Lvl9 extends App {
 
   val numbers = Source.fromResource("lvl9.txt").getLines().map(_.toLong).toSeq
 

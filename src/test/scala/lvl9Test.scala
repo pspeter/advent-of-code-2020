@@ -1,4 +1,4 @@
-import lvl9.{findEncryptionWeakness, findNumThatIsNoSum}
+import Lvl9.{findEncryptionWeakness, findNumThatIsNoSum}
 import org.scalatest.flatspec.AnyFlatSpec
 
 class lvl9Test extends AnyFlatSpec{

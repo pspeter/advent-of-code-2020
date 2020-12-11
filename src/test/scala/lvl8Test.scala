@@ -1,4 +1,4 @@
-import lvl8.{exec_v1, exec_v2, parseInstructions}
+import Lvl8.{exec_v1, exec_v2, parseInstructions}
 import org.scalatest.flatspec.AnyFlatSpec
 
 class lvl8Test extends AnyFlatSpec {

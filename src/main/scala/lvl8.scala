@@ -4,7 +4,7 @@ import enumeratum._
 import scala.annotation.tailrec
 import scala.io.Source
 
-object lvl8 extends App {
+object Lvl8 extends App {
 
   sealed trait Operation extends EnumEntry
   object Operation extends Enum[Operation] {
