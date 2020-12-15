@@ -3,7 +3,7 @@ name := "AOC-2020"
 version := "0.1"
 
 scalaVersion := "2.13.4"
-
+scalacOptions += "-deprecation"
 
 libraryDependencies += "com.beachape" %% "enumeratum" % "1.6.1"
 
