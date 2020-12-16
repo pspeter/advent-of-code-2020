@@ -24,8 +24,11 @@ object Lvl15 {
   def main(args: Array[String]): Unit = {
     val input = "6,3,15,13,1,0".split(",").toSeq.map(_.toInt)
 
-    val result1 = startGameWith(input, 30000000)
+    val result1 = startGameWith(input, 2020)
 
     println(s"Solution to part 1: $result1")
+
+    val result2 = startGameWith(input, 30000000)
+    println(s"Solution to part 2: $result2")
   }
 }
